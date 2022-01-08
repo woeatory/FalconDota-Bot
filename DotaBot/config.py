@@ -1,7 +1,7 @@
 import stratz_requests
 
-BOT_TOKEN = '5021493911:AAHSw21Aim7ZZPr6p9zaq_KxhYhDzYluZhw'  #token for telegram bot API
-STRATZ_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJodHRwczovL3N0ZWFtY29tbXVuaXR5LmNvbS9vcGVuaWQvaWQvNzY1NjExOTgxNjQyNDYzOTgiLCJ1bmlxdWVfbmFtZSI6Im5vdCBtYWxlICjQttC10L3RidC40L3QsCkiLCJTdWJqZWN0IjoiYzcwNjJkOGItNTEyNy00MjAwLWFjYzItYjY3Y2IzNzg0M2FhIiwiU3RlYW1JZCI6IjIwMzk4MDY3MCIsIm5iZiI6MTY0MTE0MzAxOSwiZXhwIjoxNjcyNjc5MDE5LCJpYXQiOjE2NDExNDMwMTksImlzcyI6Imh0dHBzOi8vYXBpLnN0cmF0ei5jb20ifQ.tVpUZAH15Ht8PxPbYZY4SKoA-gz_KQuenfu0kY-R3SM'
+BOT_TOKEN = 'token'  #token for telegram bot API
+STRATZ_TOKEN = 'token' #token for STRATZ API
 headers = {'Authorization': 'Bearer ' + STRATZ_TOKEN}
 
 all_heroes = stratz_requests.get_all_heroes()
