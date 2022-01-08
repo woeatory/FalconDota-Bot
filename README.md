@@ -12,3 +12,8 @@ pip install pyTelegramBotAPI
 pip install pandas
 
 ```
+
+# Commands
+`/hero_info` - returns hero winrate
+
+more features incoming...
