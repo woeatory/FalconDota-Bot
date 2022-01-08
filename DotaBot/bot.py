@@ -8,9 +8,6 @@ all_heroes = config.all_heroes
 
 
 commands_list = '/hero_info - get statistic about hero\n' \
-                '/command1\n'\
-                '/command2\n' \
-                '/command3\n'\
                 '/help - list of commands'
 
 
