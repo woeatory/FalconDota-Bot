@@ -42,7 +42,6 @@ def request_hero_info(heroID):
 def procces_hero_info(response):
     win_count = 0
     match_count = 0
-    winRate = 0
     for data in response['data']['heroStats']['winWeek']:
         win_count = win_count + data['winCount']
         match_count = match_count + data['matchCount']
