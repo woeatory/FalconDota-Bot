@@ -39,16 +39,5 @@ def get_hero_message(message):
     bot.register_next_step_handler(msg, get_hero_message)
 
 
-# @bot.callback_query_handler(func=lambda call: True)
-# def callback_inline(call):
-#     try:
-#         if call.message:
-#             if call.data == 'cancel':
-#                 bot.send_message(call.message.chat.id, 'Canceled')
-#                 bot.edit_message_reply_markup(chat_id=call.message.chat.id, message_id=call.message.message_id, reply_markup=None)
-#     except Exception as e:
-#         print(repr(e))
-
-
 # RUN
 bot.polling(none_stop=True)
