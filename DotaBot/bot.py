@@ -52,6 +52,7 @@ def get_hero_message(message):
 
 # RUN
 bot.start_webhook(listen="0.0.0.0",
-                          port=int(PORT),
-                          url_path=TOKEN)
+                          port=int(config.PORT),
+                          url_path=config.BOT_TOKEN)
+
 bot.bot.setWebhook('https://falcondota-bot.herokuapp.com/' + config.BOT_TOKEN)
